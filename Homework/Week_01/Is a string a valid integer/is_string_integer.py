@@ -16,3 +16,4 @@ def is_string_integer(char: str) -> bool:
     assert len(char) == 1, "Input must be a single character."
 
     return char.isdigit()
+
