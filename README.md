@@ -10,5 +10,5 @@ ECE 143 - Programming For Data Analysis
     
 ### Docker Container Run with Mount
     docker run -it --mount type=bind,source="C:\Users\nikra\Desktop\UCSD_2024_Fall\ECE 143 - Programming For Data Analysis",target=/mnt/ECE143_Container continuumio/miniconda3:latest /bin/bash
-
-
+    
+    docker run -it --mount type=bind,source="C:\Users\nikra\Desktop\UCSD_2024_Fall\ECE 143 - Programming For Data Analysis",target=/mnt/ECE143_Container ipython/ipython:latest /bin/bash
